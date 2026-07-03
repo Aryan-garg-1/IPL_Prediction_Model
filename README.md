@@ -274,6 +274,14 @@ Machine Learning | Data Science | AI
 
 GitHub: https://github.com/Aryan-garg-1
 
+# Install dependencies
+
+pip install -r requirements.txt
+
+# Run Streamlit app
+
+streamlit run streamlit_app.py
+
 ---
 
 # 📂 Data Sources
