@@ -6,18 +6,6 @@ The project demonstrates the complete ML workflow—from data preprocessing and 
 
 ---
 
-## 🚀 Live Demo
-
-🌐 **Try the Application**
-
-**Streamlit App:** https://iplprediction711.streamlit.app/
-
-📂 **Application Repository**
-
-https://github.com/Aryan-garg-1/IPL_Prediction
-
----
-
 # 📌 Project Overview
 
 Predicting the outcome of a T20 cricket match is challenging due to the dynamic nature of the game. This project leverages historical IPL data and machine learning to estimate the probability of either team winning before the match begins.
