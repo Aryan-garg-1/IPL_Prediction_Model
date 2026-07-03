@@ -276,4 +276,122 @@ GitHub: https://github.com/Aryan-garg-1
 
 ---
 
-# ⭐ If you found this project useful, consider giving it a Star!
+# 📂 Data Sources
+
+This project combines multiple publicly available IPL datasets to create a comprehensive dataset for feature engineering and match prediction. Using multiple sources helps improve data completeness, enrich player statistics, and ensure broader historical coverage.
+
+---
+
+## Dataset 1: IPL Dataset (2008–2025)
+
+**Source:**  
+https://www.kaggle.com/datasets/chaitu20/ipl-dataset2008-2025
+
+### Description
+
+This dataset contains detailed IPL match information from 2008 to 2025, including:
+
+- Ball-by-ball match data
+- Player batting and bowling statistics
+- Match metadata
+- Toss information
+- Venue details
+- Match outcomes
+- Wickets and dismissals
+- Reviews and match events
+
+With over **60+ attributes**, this dataset provides rich information for player-level and match-level feature engineering.
+
+**Primary Use in this Project**
+
+- Player batting statistics
+- Player bowling statistics
+- Squad strength calculation
+- Match-level feature generation
+- Historical performance analysis
+
+---
+
+## Dataset 2: IPL Complete Dataset (2008–2024)
+
+**Source:**  
+https://www.kaggle.com/datasets/patrickb1912/ipl-complete-dataset-20082020
+
+### Description
+
+This dataset contains two primary CSV files:
+
+- **matches.csv** – Match summaries, results, toss information, venues, winners, and player of the match.
+- **deliveries.csv** – Ball-by-ball details for every IPL match.
+
+It is one of the most widely used IPL datasets for machine learning and cricket analytics.
+
+**Primary Use in this Project**
+
+- Match metadata
+- Team performance
+- Venue statistics
+- Historical win records
+- Toss analysis
+- Match outcome verification
+
+---
+
+## Dataset 3: IPL Dataset (2008–2025)
+
+**Source:**  
+https://www.kaggle.com/datasets/maratheabhishek/ipl-dataset-2008-to-2025
+
+### Description
+
+This dataset includes:
+
+- IPL match statistics
+- Player information
+- Team information
+- Team aliases
+- Historical IPL records
+
+The data is compiled using publicly available ball-by-ball data from **Cricsheet**, with additional player and team information enriched using **ESPN Cricinfo** and official IPL statistics.
+
+**Cricsheet:** https://cricsheet.org/
+
+**Primary Use in this Project**
+
+- Player mapping
+- Team aliases
+- Data validation
+- Additional player information
+- Missing value verification
+
+---
+
+# 📊 Data Preparation
+
+The final training dataset was created by combining information from the above datasets through a series of preprocessing and feature engineering steps.
+
+The workflow included:
+
+- Data cleaning
+- Handling missing values
+- Standardizing team names
+- Standardizing venue names
+- Player name normalization
+- Aggregating player statistics
+- Building venue-specific statistics
+- Computing team historical performance
+- Generating squad-level features
+- Creating the final match-level dataset for model training
+
+The resulting dataset contains engineered features representing:
+
+- Batting strength
+- Bowling strength
+- Team form
+- Historical win percentage
+- Venue performance
+- Head-to-head statistics
+- Squad quality
+- Match context
+
+These engineered features were then used to train and evaluate multiple machine learning models.
