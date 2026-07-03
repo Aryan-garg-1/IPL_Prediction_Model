@@ -155,29 +155,6 @@ https://github.com/Aryan-garg-1/IPL_Prediction
 
 ---
 
-# 📂 Repository Structure
-
-```
-├── data/
-│   ├── IPL.csv
-│   ├── matches.csv
-│
-├── models/
-│   ├── trained_model.pkl
-│
-├── notebooks/
-│   ├── IPL_Predictor.ipynb
-│
-├── outputs/
-│   ├── figures
-│   ├── evaluation plots
-│
-├── requirements.txt
-├── README.md
-```
-
----
-
 # 📷 Sample Workflow
 
 ```
